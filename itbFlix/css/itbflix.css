@@ -207,12 +207,12 @@ aside {
     transform: scale(1.1);
 }
 
-#actores img {
+.actores img {
     height: 175px;
     width: 110px;
 }
 
-#actores {
+.actores {
     text-align: center;
 }
 
@@ -334,4 +334,18 @@ form input[type="submit"]:hover {
 #boton-pagar:active {
     background-color: red;
     color: white;
+}
+/*Estilos de info peliculas*/
+
+#trailer{
+    padding-top: 20px;
+    padding-left:15px;
+    position: absolute;
+}
+article h3{
+    padding-left: 45px;
+}
+#info{
+    text-align:center;
+    
 }
