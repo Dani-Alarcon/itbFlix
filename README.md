@@ -1,6 +1,6 @@
 # Pr03_1_HTML
 
-Estructura html de la pàgina d'inici de ItbFlix.
+Estructura html y estilo css de ItbFlix.
 
 Eines:
 
