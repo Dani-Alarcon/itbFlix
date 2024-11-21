@@ -53,7 +53,7 @@ nav ul li {
 
 /*Estilos para imitar los boton-pagares de netflix*/
 nav ul li a,
-#oferta button, #verTrailer {
+#oferta button{
     color: white;
     background-color: rgb(46, 46, 46);
     padding: 5px 10px 5px 10px;
@@ -91,17 +91,17 @@ nav ul li a:active {
     transform: scale(1.1);
 }
 
-#oferta button, #verTrailer {
+#oferta button {
     background-color: red;
     font-size: 16px;
 }
 
-#oferta button a, #verTrailer a {
+#oferta button a {
     text-decoration: none;
     color: white;
 }
 
-#oferta button:hover, #verTrailer:hover {
+#oferta button:hover {
     background-color: black;
     transition: transform 0.3s ease;
     transform: scale(1.1);
@@ -337,24 +337,34 @@ form input[type="submit"]:hover {
 }
 
 /*Pagina peliculas*/
+
 .detallesPeli {
+    width: 40%;
+    margin: 0;
     display: inline-flex;
     background-color: rgb(6, 6, 6);
     border: 2px solid #ff0000;
-    flex-direction: column;
-    margin: 0px;
     margin-top: 100px;
     margin-bottom: 30px;
-    margin-right: 50px;
+    padding: 20px;
     box-shadow: none;
+    gap: 20px;
+    margin-left: 100px;
 }
+.detallesPeli p{
+    text-align: justify;
+}
+
 .detallesPeli #pelis img{
     margin-left: 0px;
     align-items: flex-start;
 }
-#verTrailer:hover{
-    background-color: red;
+
+.detallesPeli h2 {
+    margin: 0;
+    padding: 0 0 10px 0;
 }
+
 /*Estilos de info peliculas(Solo esta hecha la informacion de una pelicula porque todas tendrian las misma estructura)*/
 
 #trailer{
