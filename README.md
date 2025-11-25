@@ -1,6 +1,7 @@
 # Pr03_1_HTML
 
 Estructura html y estilo css de ItbFlix.
+[Obrir ItbFlix](https://practica4vercel.vercel.app/)
 
 Eines:
 
